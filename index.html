@@ -1,0 +1,2071 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_0f76545c76454935a144c99b5dedf73c {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_0f76545c76454935a144c99b5dedf73c" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_0f76545c76454935a144c99b5dedf73c = L.map(
+        'map_0f76545c76454935a144c99b5dedf73c', {
+        center: [22.498787281016945, 88.37119969288132],
+        zoom: 17,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+L.control.scale().addTo(map_0f76545c76454935a144c99b5dedf73c);
+
+    
+    var tile_layer_e536162c9c6840b491f8f666ff7c105a = L.tileLayer(
+        'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": true,
+        "maxNativeZoom": 20,
+        "maxZoom": 20,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_0f76545c76454935a144c99b5dedf73c);
+    
+        var marker_f329d9b197674cdcbc8f905de5147fd5 = L.marker(
+            [22.49813521, 88.37030688],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_ad78536093894b779a7920ac53190c9a = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f329d9b197674cdcbc8f905de5147fd5.setIcon(icon_ad78536093894b779a7920ac53190c9a);
+            
+    
+            var popup_58d662d3a1b04e6dbba80094a9ff4a35 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5129bccee50441b4af6ebd06eb9185cc = $(`<div id="html_5129bccee50441b4af6ebd06eb9185cc" style="width: 100.0%; height: 100.0%;">Gate 3 Entrance</div>`)[0];
+                popup_58d662d3a1b04e6dbba80094a9ff4a35.setContent(html_5129bccee50441b4af6ebd06eb9185cc);
+            
+
+            marker_f329d9b197674cdcbc8f905de5147fd5.bindPopup(popup_58d662d3a1b04e6dbba80094a9ff4a35)
+            ;
+
+            
+        
+    
+        var marker_e72d9e32902f4be1889b4735f36694a7 = L.marker(
+            [22.49843165, 88.37079689],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_e03bd868518f4832a732c686a1c5a093 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e72d9e32902f4be1889b4735f36694a7.setIcon(icon_e03bd868518f4832a732c686a1c5a093);
+            
+    
+            var popup_1093d9d286814fe387f53e33f9bfd88e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5f52be204b4b4c66920213fa39c76105 = $(`<div id="html_5f52be204b4b4c66920213fa39c76105" style="width: 100.0%; height: 100.0%;">Dr Trijina Sen Statue</div>`)[0];
+                popup_1093d9d286814fe387f53e33f9bfd88e.setContent(html_5f52be204b4b4c66920213fa39c76105);
+            
+
+            marker_e72d9e32902f4be1889b4735f36694a7.bindPopup(popup_1093d9d286814fe387f53e33f9bfd88e)
+            ;
+
+            
+        
+    
+        var marker_63ccc9a7eebb4c87b1a116672e608f12 = L.marker(
+            [22.49874059, 88.37078805],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_f362db4faaa641b4a4099b43e46db53c = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_63ccc9a7eebb4c87b1a116672e608f12.setIcon(icon_f362db4faaa641b4a4099b43e46db53c);
+            
+    
+            var popup_19ea281944d443f9bba0ed5cffdb947e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d34c2414dc55477792c524878fa1be08 = $(`<div id="html_d34c2414dc55477792c524878fa1be08" style="width: 100.0%; height: 100.0%;">Green Zone</div>`)[0];
+                popup_19ea281944d443f9bba0ed5cffdb947e.setContent(html_d34c2414dc55477792c524878fa1be08);
+            
+
+            marker_63ccc9a7eebb4c87b1a116672e608f12.bindPopup(popup_19ea281944d443f9bba0ed5cffdb947e)
+            ;
+
+            
+        
+    
+        var marker_7861edd958ca44b680de1b9cddb18145 = L.marker(
+            [22.49796371, 88.37048953],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_86d2676be2d94343a89c850a5625d184 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7861edd958ca44b680de1b9cddb18145.setIcon(icon_86d2676be2d94343a89c850a5625d184);
+            
+    
+            var popup_90b368f64ea84409a8088a01066419a8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_29d0140ecb0040e7a17260240bac2e29 = $(`<div id="html_29d0140ecb0040e7a17260240bac2e29" style="width: 100.0%; height: 100.0%;">Hl Roy Building</div>`)[0];
+                popup_90b368f64ea84409a8088a01066419a8.setContent(html_29d0140ecb0040e7a17260240bac2e29);
+            
+
+            marker_7861edd958ca44b680de1b9cddb18145.bindPopup(popup_90b368f64ea84409a8088a01066419a8)
+            ;
+
+            
+        
+    
+        var marker_56ea7bcc319f4b67a37fadea7a7427c6 = L.marker(
+            [22.49798715, 88.37102214],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_b26417f34e7245ee86c6606f001b0f2c = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_56ea7bcc319f4b67a37fadea7a7427c6.setIcon(icon_b26417f34e7245ee86c6606f001b0f2c);
+            
+    
+            var popup_625c4d11cdb24e6fb2b9905cd970dc17 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ac6bfdc8d657451fa3def49fb0910388 = $(`<div id="html_ac6bfdc8d657451fa3def49fb0910388" style="width: 100.0%; height: 100.0%;">Ju Sub-Post Office</div>`)[0];
+                popup_625c4d11cdb24e6fb2b9905cd970dc17.setContent(html_ac6bfdc8d657451fa3def49fb0910388);
+            
+
+            marker_56ea7bcc319f4b67a37fadea7a7427c6.bindPopup(popup_625c4d11cdb24e6fb2b9905cd970dc17)
+            ;
+
+            
+        
+    
+        var marker_2b5a0564efd74895b522aee8f1c9bc3d = L.marker(
+            [22.49784838, 88.37125344],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_05ce4b4fdf924924bf9f92fd251d4141 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2b5a0564efd74895b522aee8f1c9bc3d.setIcon(icon_05ce4b4fdf924924bf9f92fd251d4141);
+            
+    
+            var popup_405f0d0cf4a241cb888066b056bb52c9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_342a42ddb9cb41e98d87f6c22bcf8ff5 = $(`<div id="html_342a42ddb9cb41e98d87f6c22bcf8ff5" style="width: 100.0%; height: 100.0%;">Blue Earth Workshop</div>`)[0];
+                popup_405f0d0cf4a241cb888066b056bb52c9.setContent(html_342a42ddb9cb41e98d87f6c22bcf8ff5);
+            
+
+            marker_2b5a0564efd74895b522aee8f1c9bc3d.bindPopup(popup_405f0d0cf4a241cb888066b056bb52c9)
+            ;
+
+            
+        
+    
+        var marker_d62027ff24084b31a80cbeeb11ddb675 = L.marker(
+            [22.49753963, 88.37096989],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_1563b0959c474d26a9eb274849754834 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d62027ff24084b31a80cbeeb11ddb675.setIcon(icon_1563b0959c474d26a9eb274849754834);
+            
+    
+            var popup_b4861139e5d7448b9c5b9f68a5283fd6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3e7f88e781f948bba686100a2acb8e97 = $(`<div id="html_3e7f88e781f948bba686100a2acb8e97" style="width: 100.0%; height: 100.0%;">Production Engineering Building</div>`)[0];
+                popup_b4861139e5d7448b9c5b9f68a5283fd6.setContent(html_3e7f88e781f948bba686100a2acb8e97);
+            
+
+            marker_d62027ff24084b31a80cbeeb11ddb675.bindPopup(popup_b4861139e5d7448b9c5b9f68a5283fd6)
+            ;
+
+            
+        
+    
+        var marker_7c97f55b2ff64398a6560d66e11a2e3f = L.marker(
+            [22.49724626, 88.37148374],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_c65c8dfd1fbd4b7b81ed73a9d1297581 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7c97f55b2ff64398a6560d66e11a2e3f.setIcon(icon_c65c8dfd1fbd4b7b81ed73a9d1297581);
+            
+    
+            var popup_40e508263a26444093252cf98c355849 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_561542f7028f4d1e900a4ce589d7f171 = $(`<div id="html_561542f7028f4d1e900a4ce589d7f171" style="width: 100.0%; height: 100.0%;">Ju Alumni Guest House</div>`)[0];
+                popup_40e508263a26444093252cf98c355849.setContent(html_561542f7028f4d1e900a4ce589d7f171);
+            
+
+            marker_7c97f55b2ff64398a6560d66e11a2e3f.bindPopup(popup_40e508263a26444093252cf98c355849)
+            ;
+
+            
+        
+    
+        var marker_585a3ce8648b4d258aed3d936f920fb9 = L.marker(
+            [22.49713541, 88.37152785],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_029ea9ce961e413e9e09c006e9aaa983 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_585a3ce8648b4d258aed3d936f920fb9.setIcon(icon_029ea9ce961e413e9e09c006e9aaa983);
+            
+    
+            var popup_55623ee487334782894fc411c416e5d9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2e32c9d17a6841968438e479ed526ab5 = $(`<div id="html_2e32c9d17a6841968438e479ed526ab5" style="width: 100.0%; height: 100.0%;">Nieliet Kolkata Centre</div>`)[0];
+                popup_55623ee487334782894fc411c416e5d9.setContent(html_2e32c9d17a6841968438e479ed526ab5);
+            
+
+            marker_585a3ce8648b4d258aed3d936f920fb9.bindPopup(popup_55623ee487334782894fc411c416e5d9)
+            ;
+
+            
+        
+    
+        var marker_b1edc88418b64f07b8b232051d5b3bf8 = L.marker(
+            [22.4965952, 88.37114467],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_ba9626acbfc748879b8ca061c6ad2fcc = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b1edc88418b64f07b8b232051d5b3bf8.setIcon(icon_ba9626acbfc748879b8ca061c6ad2fcc);
+            
+    
+            var popup_59d0ef37e35146a8af962c30e4dc58fb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_65ac4c84d1c74509b79184afdcbcb24e = $(`<div id="html_65ac4c84d1c74509b79184afdcbcb24e" style="width: 100.0%; height: 100.0%;">Etce Department Building</div>`)[0];
+                popup_59d0ef37e35146a8af962c30e4dc58fb.setContent(html_65ac4c84d1c74509b79184afdcbcb24e);
+            
+
+            marker_b1edc88418b64f07b8b232051d5b3bf8.bindPopup(popup_59d0ef37e35146a8af962c30e4dc58fb)
+            ;
+
+            
+        
+    
+        var marker_0a3f91866e3340b9a40c0aacdf9472c7 = L.marker(
+            [22.49667997, 88.37144463],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_99078355c8ac4575aab46fcabf8c0e31 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0a3f91866e3340b9a40c0aacdf9472c7.setIcon(icon_99078355c8ac4575aab46fcabf8c0e31);
+            
+    
+            var popup_2174cd8dda404094925bdf56282f0233 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0b023b6461654e988e6508a722279f05 = $(`<div id="html_0b023b6461654e988e6508a722279f05" style="width: 100.0%; height: 100.0%;">Civil Department Building</div>`)[0];
+                popup_2174cd8dda404094925bdf56282f0233.setContent(html_0b023b6461654e988e6508a722279f05);
+            
+
+            marker_0a3f91866e3340b9a40c0aacdf9472c7.bindPopup(popup_2174cd8dda404094925bdf56282f0233)
+            ;
+
+            
+        
+    
+        var marker_297dcc0c352c4439b491d8fa5fbbb17b = L.marker(
+            [22.49633563, 88.3717185],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_b8caa07fdff64ec0b9c730209ae213e3 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_297dcc0c352c4439b491d8fa5fbbb17b.setIcon(icon_b8caa07fdff64ec0b9c730209ae213e3);
+            
+    
+            var popup_136bb75ecdd44a748ccaeb7ac4b27e2b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3f2bfaee32b74adab2d94922c6b446d8 = $(`<div id="html_3f2bfaee32b74adab2d94922c6b446d8" style="width: 100.0%; height: 100.0%;">Electrical Engineering</div>`)[0];
+                popup_136bb75ecdd44a748ccaeb7ac4b27e2b.setContent(html_3f2bfaee32b74adab2d94922c6b446d8);
+            
+
+            marker_297dcc0c352c4439b491d8fa5fbbb17b.bindPopup(popup_136bb75ecdd44a748ccaeb7ac4b27e2b)
+            ;
+
+            
+        
+    
+        var marker_fa28b8ec7ad24654a6e1de33a2b9a741 = L.marker(
+            [22.49665321, 88.37196983],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_887bf8fc6699414c9716b00b15c505a4 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fa28b8ec7ad24654a6e1de33a2b9a741.setIcon(icon_887bf8fc6699414c9716b00b15c505a4);
+            
+    
+            var popup_d1b581c2d85e4285a3d0e2bd709b365c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_79d2d1e0ed6648e090dd468bd6bf9924 = $(`<div id="html_79d2d1e0ed6648e090dd468bd6bf9924" style="width: 100.0%; height: 100.0%;">Fetsu Union Room</div>`)[0];
+                popup_d1b581c2d85e4285a3d0e2bd709b365c.setContent(html_79d2d1e0ed6648e090dd468bd6bf9924);
+            
+
+            marker_fa28b8ec7ad24654a6e1de33a2b9a741.bindPopup(popup_d1b581c2d85e4285a3d0e2bd709b365c)
+            ;
+
+            
+        
+    
+        var marker_90c827cf93284073a9ae887f00fd2428 = L.marker(
+            [22.49647957, 88.37236662],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_27a6603f5068476192ab3edea2b08190 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_90c827cf93284073a9ae887f00fd2428.setIcon(icon_27a6603f5068476192ab3edea2b08190);
+            
+    
+            var popup_31d53c27b5f54dcda1785f81a03066a0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d6e8cd3f307c4e7abe5ea2b80a9012cf = $(`<div id="html_d6e8cd3f307c4e7abe5ea2b80a9012cf" style="width: 100.0%; height: 100.0%;">Aurobindo Bhawan</div>`)[0];
+                popup_31d53c27b5f54dcda1785f81a03066a0.setContent(html_d6e8cd3f307c4e7abe5ea2b80a9012cf);
+            
+
+            marker_90c827cf93284073a9ae887f00fd2428.bindPopup(popup_31d53c27b5f54dcda1785f81a03066a0)
+            ;
+
+            
+        
+    
+        var marker_e51721be220e4cb9aa8fd9370aa2e6c6 = L.marker(
+            [22.49683428, 88.37255296],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_c3df99f2b17b40b4a06fe7d765b6d839 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e51721be220e4cb9aa8fd9370aa2e6c6.setIcon(icon_c3df99f2b17b40b4a06fe7d765b6d839);
+            
+    
+            var popup_c3887504e96049fdb28c1645eeb9ce08 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5a1cce44e0f54aa1ba0f014210dc08b2 = $(`<div id="html_5a1cce44e0f54aa1ba0f014210dc08b2" style="width: 100.0%; height: 100.0%;">Ju Administritive Building</div>`)[0];
+                popup_c3887504e96049fdb28c1645eeb9ce08.setContent(html_5a1cce44e0f54aa1ba0f014210dc08b2);
+            
+
+            marker_e51721be220e4cb9aa8fd9370aa2e6c6.bindPopup(popup_c3887504e96049fdb28c1645eeb9ce08)
+            ;
+
+            
+        
+    
+        var marker_94e0c4e10ffb4bc7b5e5fd2ffb78af51 = L.marker(
+            [22.49685422, 88.37301991],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_999054f71d164b1bb86c61a25c361b07 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_94e0c4e10ffb4bc7b5e5fd2ffb78af51.setIcon(icon_999054f71d164b1bb86c61a25c361b07);
+            
+    
+            var popup_fccc2afb366c4c1aa8091e7df41771c8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d0fc2cd4b8304ef3b0ccd1ad1a213fb3 = $(`<div id="html_d0fc2cd4b8304ef3b0ccd1ad1a213fb3" style="width: 100.0%; height: 100.0%;">Chemical Engineering Building</div>`)[0];
+                popup_fccc2afb366c4c1aa8091e7df41771c8.setContent(html_d0fc2cd4b8304ef3b0ccd1ad1a213fb3);
+            
+
+            marker_94e0c4e10ffb4bc7b5e5fd2ffb78af51.bindPopup(popup_fccc2afb366c4c1aa8091e7df41771c8)
+            ;
+
+            
+        
+    
+        var marker_557c469393204212a493097c55c5a640 = L.marker(
+            [22.49767732, 88.3729641],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_09c6d7439d724dcaaf226a69c6745fdb = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_557c469393204212a493097c55c5a640.setIcon(icon_09c6d7439d724dcaaf226a69c6745fdb);
+            
+    
+            var popup_e691dd0784c64dd9a4a38d37bf9dc06a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e377f1b451cd4771846c107ab83c40c0 = $(`<div id="html_e377f1b451cd4771846c107ab83c40c0" style="width: 100.0%; height: 100.0%;">Department Of Mechanical Engineering Building</div>`)[0];
+                popup_e691dd0784c64dd9a4a38d37bf9dc06a.setContent(html_e377f1b451cd4771846c107ab83c40c0);
+            
+
+            marker_557c469393204212a493097c55c5a640.bindPopup(popup_e691dd0784c64dd9a4a38d37bf9dc06a)
+            ;
+
+            
+        
+    
+        var marker_fa52745c52df4617bc99a87b8c3293ba = L.marker(
+            [22.49799376, 88.37289098],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_8564a1536bde414290e2d027b178f2bc = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fa52745c52df4617bc99a87b8c3293ba.setIcon(icon_8564a1536bde414290e2d027b178f2bc);
+            
+    
+            var popup_42685b4c9387446381e07c456b9bf7ef = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ff1ab1bcde34478aa8fb33eb4f4cd37f = $(`<div id="html_ff1ab1bcde34478aa8fb33eb4f4cd37f" style="width: 100.0%; height: 100.0%;">Hydrolics Lab</div>`)[0];
+                popup_42685b4c9387446381e07c456b9bf7ef.setContent(html_ff1ab1bcde34478aa8fb33eb4f4cd37f);
+            
+
+            marker_fa52745c52df4617bc99a87b8c3293ba.bindPopup(popup_42685b4c9387446381e07c456b9bf7ef)
+            ;
+
+            
+        
+    
+        var marker_2716cf212ab94289a97f96db18ba3884 = L.marker(
+            [22.49815198, 88.37283903],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_deeda91f156941bca011227010dd56f0 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2716cf212ab94289a97f96db18ba3884.setIcon(icon_deeda91f156941bca011227010dd56f0);
+            
+    
+            var popup_eb598fadb1684190a01e88bfec0316d0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_309212d922594fd5afa11f2b28dcf32c = $(`<div id="html_309212d922594fd5afa11f2b28dcf32c" style="width: 100.0%; height: 100.0%;">Regional Cum Facilition Centre</div>`)[0];
+                popup_eb598fadb1684190a01e88bfec0316d0.setContent(html_309212d922594fd5afa11f2b28dcf32c);
+            
+
+            marker_2716cf212ab94289a97f96db18ba3884.bindPopup(popup_eb598fadb1684190a01e88bfec0316d0)
+            ;
+
+            
+        
+    
+        var marker_c197e1b261dd4456a6b6b54cf7f4a6ed = L.marker(
+            [22.49873638, 88.37267898],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_f09dcaae7db6474dae3549b2d53dc4d5 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c197e1b261dd4456a6b6b54cf7f4a6ed.setIcon(icon_f09dcaae7db6474dae3549b2d53dc4d5);
+            
+    
+            var popup_de57872e45e842a2828fe88454ad2e7b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_76a6f517707b4cfcbd3ec946e6218603 = $(`<div id="html_76a6f517707b4cfcbd3ec946e6218603" style="width: 100.0%; height: 100.0%;">Jadavpur University Jhil</div>`)[0];
+                popup_de57872e45e842a2828fe88454ad2e7b.setContent(html_76a6f517707b4cfcbd3ec946e6218603);
+            
+
+            marker_c197e1b261dd4456a6b6b54cf7f4a6ed.bindPopup(popup_de57872e45e842a2828fe88454ad2e7b)
+            ;
+
+            
+        
+    
+        var marker_6b04afb9e77343ddb16f63cf1f08acfe = L.marker(
+            [22.49891312, 88.37217422],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_58ea98e8acee4cf7925fd68c9ff0022b = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6b04afb9e77343ddb16f63cf1f08acfe.setIcon(icon_58ea98e8acee4cf7925fd68c9ff0022b);
+            
+    
+            var popup_e1923097d99c46f38e618110ba309c8e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_91a924bfd6f6467e95590f53d1942521 = $(`<div id="html_91a924bfd6f6467e95590f53d1942521" style="width: 100.0%; height: 100.0%;">Metallurgical Engg. Dept</div>`)[0];
+                popup_e1923097d99c46f38e618110ba309c8e.setContent(html_91a924bfd6f6467e95590f53d1942521);
+            
+
+            marker_6b04afb9e77343ddb16f63cf1f08acfe.bindPopup(popup_e1923097d99c46f38e618110ba309c8e)
+            ;
+
+            
+        
+    
+        var marker_d79ccad7e09f493fb7a87e7006185479 = L.marker(
+            [22.49911477, 88.37211772],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_4de5474f84234b45aef44fc3d3941ea4 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d79ccad7e09f493fb7a87e7006185479.setIcon(icon_4de5474f84234b45aef44fc3d3941ea4);
+            
+    
+            var popup_ba2afb049efb41e89783140cb31a641c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0735d2d41ca24f88ba11b9b71cd453f0 = $(`<div id="html_0735d2d41ca24f88ba11b9b71cd453f0" style="width: 100.0%; height: 100.0%;">Welding Technology Centre Ju</div>`)[0];
+                popup_ba2afb049efb41e89783140cb31a641c.setContent(html_0735d2d41ca24f88ba11b9b71cd453f0);
+            
+
+            marker_d79ccad7e09f493fb7a87e7006185479.bindPopup(popup_ba2afb049efb41e89783140cb31a641c)
+            ;
+
+            
+        
+    
+        var marker_b3c81d5c1a7f47728c7902276c4f70de = L.marker(
+            [22.49929616, 88.37173777],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_9c34f31f48f24e00b4d8dc2c74f8eab2 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b3c81d5c1a7f47728c7902276c4f70de.setIcon(icon_9c34f31f48f24e00b4d8dc2c74f8eab2);
+            
+    
+            var popup_b0c4b7275f8e427a9e70c28c1c1d2539 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_58871a8a11564bcc9edd8811c72f7162 = $(`<div id="html_58871a8a11564bcc9edd8811c72f7162" style="width: 100.0%; height: 100.0%;">Department Of Life Science And Biotechnology</div>`)[0];
+                popup_b0c4b7275f8e427a9e70c28c1c1d2539.setContent(html_58871a8a11564bcc9edd8811c72f7162);
+            
+
+            marker_b3c81d5c1a7f47728c7902276c4f70de.bindPopup(popup_b0c4b7275f8e427a9e70c28c1c1d2539)
+            ;
+
+            
+        
+    
+        var marker_99cfc534da944eaba0d827367157224a = L.marker(
+            [22.49969504, 88.37251832],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_abbd09740d5a4b3ea3b48be552386d4a = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_99cfc534da944eaba0d827367157224a.setIcon(icon_abbd09740d5a4b3ea3b48be552386d4a);
+            
+    
+            var popup_793bbd0bac654d289254705e726fea3e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_77313639b76844229e7812d3f5d5521d = $(`<div id="html_77313639b76844229e7812d3f5d5521d" style="width: 100.0%; height: 100.0%;">Ju Guest House</div>`)[0];
+                popup_793bbd0bac654d289254705e726fea3e.setContent(html_77313639b76844229e7812d3f5d5521d);
+            
+
+            marker_99cfc534da944eaba0d827367157224a.bindPopup(popup_793bbd0bac654d289254705e726fea3e)
+            ;
+
+            
+        
+    
+        var marker_94182cf16b974742a2c176e666ac8f2a = L.marker(
+            [22.49914441, 88.37100025],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_130a579fe2e14b95bca9655cca7cc858 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_94182cf16b974742a2c176e666ac8f2a.setIcon(icon_130a579fe2e14b95bca9655cca7cc858);
+            
+    
+            var popup_bb8032ea4bb94657b7d7d4b3567ff964 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_354c68a4e9d24101b1196c5f0dd9620e = $(`<div id="html_354c68a4e9d24101b1196c5f0dd9620e" style="width: 100.0%; height: 100.0%;">Hepsn Building</div>`)[0];
+                popup_bb8032ea4bb94657b7d7d4b3567ff964.setContent(html_354c68a4e9d24101b1196c5f0dd9620e);
+            
+
+            marker_94182cf16b974742a2c176e666ac8f2a.bindPopup(popup_bb8032ea4bb94657b7d7d4b3567ff964)
+            ;
+
+            
+        
+    
+        var marker_62e67b703ebc44249c217d23a999d1e5 = L.marker(
+            [22.4990657, 88.37095647],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_c721ed6536a24aaf8fb04eefd7eb0329 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_62e67b703ebc44249c217d23a999d1e5.setIcon(icon_c721ed6536a24aaf8fb04eefd7eb0329);
+            
+    
+            var popup_65033080f1df451d845164f2afe775f3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c2bbfaeb8acb4c5d806d3e1eaa0ea3e7 = $(`<div id="html_c2bbfaeb8acb4c5d806d3e1eaa0ea3e7" style="width: 100.0%; height: 100.0%;">Ju Teachers Association</div>`)[0];
+                popup_65033080f1df451d845164f2afe775f3.setContent(html_c2bbfaeb8acb4c5d806d3e1eaa0ea3e7);
+            
+
+            marker_62e67b703ebc44249c217d23a999d1e5.bindPopup(popup_65033080f1df451d845164f2afe775f3)
+            ;
+
+            
+        
+    
+        var marker_d7287c24209e4e0f9916a63d80e58b7c = L.marker(
+            [22.49889968, 88.37114687],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_34404a2b18984301873b3c0289a11eba = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d7287c24209e4e0f9916a63d80e58b7c.setIcon(icon_34404a2b18984301873b3c0289a11eba);
+            
+    
+            var popup_64e1482a184d48a9a3a2dfdc546062e6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c69553e5552941b49d05eda6c2939883 = $(`<div id="html_c69553e5552941b49d05eda6c2939883" style="width: 100.0%; height: 100.0%;">Engineering Sciences Building</div>`)[0];
+                popup_64e1482a184d48a9a3a2dfdc546062e6.setContent(html_c69553e5552941b49d05eda6c2939883);
+            
+
+            marker_d7287c24209e4e0f9916a63d80e58b7c.bindPopup(popup_64e1482a184d48a9a3a2dfdc546062e6)
+            ;
+
+            
+        
+    
+        var marker_8ff65334bad94520960499c45c23e800 = L.marker(
+            [22.49868115, 88.37138341],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_243068b2e9f24c54b59a047a9b943e1f = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8ff65334bad94520960499c45c23e800.setIcon(icon_243068b2e9f24c54b59a047a9b943e1f);
+            
+    
+            var popup_6726480a915d4312979d055a1ad055f4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d1b57c5b511548259273c351495cb0e6 = $(`<div id="html_d1b57c5b511548259273c351495cb0e6" style="width: 100.0%; height: 100.0%;">Central Library</div>`)[0];
+                popup_6726480a915d4312979d055a1ad055f4.setContent(html_d1b57c5b511548259273c351495cb0e6);
+            
+
+            marker_8ff65334bad94520960499c45c23e800.bindPopup(popup_6726480a915d4312979d055a1ad055f4)
+            ;
+
+            
+        
+    
+        var marker_8644c83fadc646c189aa730b348d380b = L.marker(
+            [22.49905354, 88.37037359],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_3351b1c66cc54dc1b762a241d27f96f9 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8644c83fadc646c189aa730b348d380b.setIcon(icon_3351b1c66cc54dc1b762a241d27f96f9);
+            
+    
+            var popup_9fcf859419c147328b9fddea8a34a873 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_911314e36c674a39b1b68f38c809cbf7 = $(`<div id="html_911314e36c674a39b1b68f38c809cbf7" style="width: 100.0%; height: 100.0%;">Tequip Building</div>`)[0];
+                popup_9fcf859419c147328b9fddea8a34a873.setContent(html_911314e36c674a39b1b68f38c809cbf7);
+            
+
+            marker_8644c83fadc646c189aa730b348d380b.bindPopup(popup_9fcf859419c147328b9fddea8a34a873)
+            ;
+
+            
+        
+    
+        var marker_e0fa4969c63547c687dabc6c551e6fa3 = L.marker(
+            [22.4984834, 88.37169424],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_9580d75de1324d0a910d6648fca38993 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e0fa4969c63547c687dabc6c551e6fa3.setIcon(icon_9580d75de1324d0a910d6648fca38993);
+            
+    
+            var popup_96b72b6c13304504a14fd3b90ab0bac4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_059dee96e0824b2fb28d743074ebdbd0 = $(`<div id="html_059dee96e0824b2fb28d743074ebdbd0" style="width: 100.0%; height: 100.0%;">Basketball Ground</div>`)[0];
+                popup_96b72b6c13304504a14fd3b90ab0bac4.setContent(html_059dee96e0824b2fb28d743074ebdbd0);
+            
+
+            marker_e0fa4969c63547c687dabc6c551e6fa3.bindPopup(popup_96b72b6c13304504a14fd3b90ab0bac4)
+            ;
+
+            
+        
+    
+        var marker_e41f56d61c7045adaad3b97e3b15978f = L.marker(
+            [22.49832942, 88.37215264],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_8f6661a04a694347b6692be5d21a01cf = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e41f56d61c7045adaad3b97e3b15978f.setIcon(icon_8f6661a04a694347b6692be5d21a01cf);
+            
+    
+            var popup_8c4fdb2d7691461c95fff38781f3adcc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_aa0291a1a8564be49103325adeef698d = $(`<div id="html_aa0291a1a8564be49103325adeef698d" style="width: 100.0%; height: 100.0%;">Playing Zone</div>`)[0];
+                popup_8c4fdb2d7691461c95fff38781f3adcc.setContent(html_aa0291a1a8564be49103325adeef698d);
+            
+
+            marker_e41f56d61c7045adaad3b97e3b15978f.bindPopup(popup_8c4fdb2d7691461c95fff38781f3adcc)
+            ;
+
+            
+        
+    
+        var marker_556ccd9476b74bcb821c8e94f759f52a = L.marker(
+            [22.49865963, 88.37210072],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_4e2813cddac14949ac7300807bbb79c3 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_556ccd9476b74bcb821c8e94f759f52a.setIcon(icon_4e2813cddac14949ac7300807bbb79c3);
+            
+    
+            var popup_fd8ff70766b54ed38c52f7a5a4685719 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c440617e431e480e948f2d36016ba735 = $(`<div id="html_c440617e431e480e948f2d36016ba735" style="width: 100.0%; height: 100.0%;">Canteen</div>`)[0];
+                popup_fd8ff70766b54ed38c52f7a5a4685719.setContent(html_c440617e431e480e948f2d36016ba735);
+            
+
+            marker_556ccd9476b74bcb821c8e94f759f52a.bindPopup(popup_fd8ff70766b54ed38c52f7a5a4685719)
+            ;
+
+            
+        
+    
+        var marker_6e43836d3c7e4b72b7ea460165605137 = L.marker(
+            [22.49960617, 88.37096468],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_f0481e9268f9415ea22831a87fbb32e9 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6e43836d3c7e4b72b7ea460165605137.setIcon(icon_f0481e9268f9415ea22831a87fbb32e9);
+            
+    
+            var popup_cf1dbf3d869b4d27bdecb1961d92fa39 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1354e0d15a8742a49ff33253a5d71339 = $(`<div id="html_1354e0d15a8742a49ff33253a5d71339" style="width: 100.0%; height: 100.0%;">Gandhi Bhawan</div>`)[0];
+                popup_cf1dbf3d869b4d27bdecb1961d92fa39.setContent(html_1354e0d15a8742a49ff33253a5d71339);
+            
+
+            marker_6e43836d3c7e4b72b7ea460165605137.bindPopup(popup_cf1dbf3d869b4d27bdecb1961d92fa39)
+            ;
+
+            
+        
+    
+        var marker_7a56defbee8a461a827df7a49bdc894e = L.marker(
+            [22.49987671, 88.37085743],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_cb345a3e21f9444d94381a14edaf2ebf = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7a56defbee8a461a827df7a49bdc894e.setIcon(icon_cb345a3e21f9444d94381a14edaf2ebf);
+            
+    
+            var popup_cbe0b3f08431487bbd0a90ef00376548 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2751e8cd4c874a4c92a4ea0dcb80daa5 = $(`<div id="html_2751e8cd4c874a4c92a4ea0dcb80daa5" style="width: 100.0%; height: 100.0%;">Opt Hall</div>`)[0];
+                popup_cbe0b3f08431487bbd0a90ef00376548.setContent(html_2751e8cd4c874a4c92a4ea0dcb80daa5);
+            
+
+            marker_7a56defbee8a461a827df7a49bdc894e.bindPopup(popup_cbe0b3f08431487bbd0a90ef00376548)
+            ;
+
+            
+        
+    
+        var marker_bfca75f56d4f48348049681012b88a82 = L.marker(
+            [22.49982442, 88.37095406],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_1f387a5a19fa40cc93d13601e9c3744f = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bfca75f56d4f48348049681012b88a82.setIcon(icon_1f387a5a19fa40cc93d13601e9c3744f);
+            
+    
+            var popup_aaf459996e414352b9ab623da01ad642 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_12a7cf472f554419a6f83a1a32a9cc53 = $(`<div id="html_12a7cf472f554419a6f83a1a32a9cc53" style="width: 100.0%; height: 100.0%;">Placement Cell Office</div>`)[0];
+                popup_aaf459996e414352b9ab623da01ad642.setContent(html_12a7cf472f554419a6f83a1a32a9cc53);
+            
+
+            marker_bfca75f56d4f48348049681012b88a82.bindPopup(popup_aaf459996e414352b9ab623da01ad642)
+            ;
+
+            
+        
+    
+        var marker_f6d09aa5aa7046c58b00c8ca292086d3 = L.marker(
+            [22.49998256, 88.37097062],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_c27df858c01a4189aa5fcfb8b1499ab4 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f6d09aa5aa7046c58b00c8ca292086d3.setIcon(icon_c27df858c01a4189aa5fcfb8b1499ab4);
+            
+    
+            var popup_9329afb09864486bb99db9d24855bc1e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a05e3bbe533c4c559b3c71570a183f3e = $(`<div id="html_a05e3bbe533c4c559b3c71570a183f3e" style="width: 100.0%; height: 100.0%;">Ac Canteen</div>`)[0];
+                popup_9329afb09864486bb99db9d24855bc1e.setContent(html_a05e3bbe533c4c559b3c71570a183f3e);
+            
+
+            marker_f6d09aa5aa7046c58b00c8ca292086d3.bindPopup(popup_9329afb09864486bb99db9d24855bc1e)
+            ;
+
+            
+        
+    
+        var marker_ab679f2f816046d89bc974e3b13fb765 = L.marker(
+            [22.49940534, 88.37032134],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_2f1ab30b32324b71946ced26cf76c72f = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ab679f2f816046d89bc974e3b13fb765.setIcon(icon_2f1ab30b32324b71946ced26cf76c72f);
+            
+    
+            var popup_2bec5264ec384a0e8979220695f47fec = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0617a0fa55fc482b9bef9a1e88e4d91d = $(`<div id="html_0617a0fa55fc482b9bef9a1e88e4d91d" style="width: 100.0%; height: 100.0%;">Nce Bengal Jadavapur </div>`)[0];
+                popup_2bec5264ec384a0e8979220695f47fec.setContent(html_0617a0fa55fc482b9bef9a1e88e4d91d);
+            
+
+            marker_ab679f2f816046d89bc974e3b13fb765.bindPopup(popup_2bec5264ec384a0e8979220695f47fec)
+            ;
+
+            
+        
+    
+        var marker_fd5d9eda740249a3a43105bb8ff028f3 = L.marker(
+            [22.50022327, 88.3707947],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_6265398364a343e4b236d776c283e0b8 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fd5d9eda740249a3a43105bb8ff028f3.setIcon(icon_6265398364a343e4b236d776c283e0b8);
+            
+    
+            var popup_448278a93c95478c91a16f6c3798eb23 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3981b96171824d1489a9ea964edadd26 = $(`<div id="html_3981b96171824d1489a9ea964edadd26" style="width: 100.0%; height: 100.0%;">Ju Science Jhil</div>`)[0];
+                popup_448278a93c95478c91a16f6c3798eb23.setContent(html_3981b96171824d1489a9ea964edadd26);
+            
+
+            marker_fd5d9eda740249a3a43105bb8ff028f3.bindPopup(popup_448278a93c95478c91a16f6c3798eb23)
+            ;
+
+            
+        
+    
+        var marker_d4fffe07456442e1ac9f15e51fee2bae = L.marker(
+            [22.50025621, 88.37019657],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_8b2a0b1d08824183aeab4f66027fca8e = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d4fffe07456442e1ac9f15e51fee2bae.setIcon(icon_8b2a0b1d08824183aeab4f66027fca8e);
+            
+    
+            var popup_4c94362366f947f8ba3a152867a80094 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6ede657b114b482fa4933c2ef37b2e6b = $(`<div id="html_6ede657b114b482fa4933c2ef37b2e6b" style="width: 100.0%; height: 100.0%;">Department Of Film Studios</div>`)[0];
+                popup_4c94362366f947f8ba3a152867a80094.setContent(html_6ede657b114b482fa4933c2ef37b2e6b);
+            
+
+            marker_d4fffe07456442e1ac9f15e51fee2bae.bindPopup(popup_4c94362366f947f8ba3a152867a80094)
+            ;
+
+            
+        
+    
+        var marker_51dfb85ae2744c4ebb1a93d1baff5db7 = L.marker(
+            [22.50050689, 88.37005001],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_e1f5356ccead46b28db51f641993a374 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_51dfb85ae2744c4ebb1a93d1baff5db7.setIcon(icon_e1f5356ccead46b28db51f641993a374);
+            
+    
+            var popup_9fb527b9934d4501bd2a1229170ec337 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_08c5036e69594ef49b64edfb8c344a70 = $(`<div id="html_08c5036e69594ef49b64edfb8c344a70" style="width: 100.0%; height: 100.0%;">Ug Science Building</div>`)[0];
+                popup_9fb527b9934d4501bd2a1229170ec337.setContent(html_08c5036e69594ef49b64edfb8c344a70);
+            
+
+            marker_51dfb85ae2744c4ebb1a93d1baff5db7.bindPopup(popup_9fb527b9934d4501bd2a1229170ec337)
+            ;
+
+            
+        
+    
+        var marker_42ae147802a74b0a8f118912939a4278 = L.marker(
+            [22.50044853, 88.37054246],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_f3224ba452074ee799250af9e3883e58 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_42ae147802a74b0a8f118912939a4278.setIcon(icon_f3224ba452074ee799250af9e3883e58);
+            
+    
+            var popup_7796f09049cc4a18b6cfb5be7706525b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_51c9a2b633bc4ac286af3ae15bb79470 = $(`<div id="html_51c9a2b633bc4ac286af3ae15bb79470" style="width: 100.0%; height: 100.0%;">Pg Science Building</div>`)[0];
+                popup_7796f09049cc4a18b6cfb5be7706525b.setContent(html_51c9a2b633bc4ac286af3ae15bb79470);
+            
+
+            marker_42ae147802a74b0a8f118912939a4278.bindPopup(popup_7796f09049cc4a18b6cfb5be7706525b)
+            ;
+
+            
+        
+    
+        var marker_b7621c272d174fca8676deac2df1be14 = L.marker(
+            [22.50069738, 88.37037807],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_15026fba2ac34a7aafd0744dfc845519 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b7621c272d174fca8676deac2df1be14.setIcon(icon_15026fba2ac34a7aafd0744dfc845519);
+            
+    
+            var popup_2911bf6e77dd439284667800375e7aff = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a737ce1ce7fa4479b5d76fe676d573b7 = $(`<div id="html_a737ce1ce7fa4479b5d76fe676d573b7" style="width: 100.0%; height: 100.0%;">Department Of Chemistry Building</div>`)[0];
+                popup_2911bf6e77dd439284667800375e7aff.setContent(html_a737ce1ce7fa4479b5d76fe676d573b7);
+            
+
+            marker_b7621c272d174fca8676deac2df1be14.bindPopup(popup_2911bf6e77dd439284667800375e7aff)
+            ;
+
+            
+        
+    
+        var marker_8b84dc7e161744f0a56e65a08c8248d8 = L.marker(
+            [22.50075481, 88.37012425],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_ea241087f3e54194a336470c3c18bf29 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8b84dc7e161744f0a56e65a08c8248d8.setIcon(icon_ea241087f3e54194a336470c3c18bf29);
+            
+    
+            var popup_9ee6dab6cd2448439ec2895bec90241a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f85d12decf194e0da4c1c194b53734f2 = $(`<div id="html_f85d12decf194e0da4c1c194b53734f2" style="width: 100.0%; height: 100.0%;">Vivekanada Hall</div>`)[0];
+                popup_9ee6dab6cd2448439ec2895bec90241a.setContent(html_f85d12decf194e0da4c1c194b53734f2);
+            
+
+            marker_8b84dc7e161744f0a56e65a08c8248d8.bindPopup(popup_9ee6dab6cd2448439ec2895bec90241a)
+            ;
+
+            
+        
+    
+        var marker_503e478f63564eb4a96ab743a5d95ee7 = L.marker(
+            [22.50087702, 88.37010276],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_72e10083403842a8a02146ae88694221 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_503e478f63564eb4a96ab743a5d95ee7.setIcon(icon_72e10083403842a8a02146ae88694221);
+            
+    
+            var popup_516d1cf7430f47f9a74e2efb07dc6401 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dc629aa6611b475bb6b82c2845b9c603 = $(`<div id="html_dc629aa6611b475bb6b82c2845b9c603" style="width: 100.0%; height: 100.0%;">Pharmacy Department</div>`)[0];
+                popup_516d1cf7430f47f9a74e2efb07dc6401.setContent(html_dc629aa6611b475bb6b82c2845b9c603);
+            
+
+            marker_503e478f63564eb4a96ab743a5d95ee7.bindPopup(popup_516d1cf7430f47f9a74e2efb07dc6401)
+            ;
+
+            
+        
+    
+        var marker_9511321eef024e7088f681119a733bf9 = L.marker(
+            [22.50094882, 88.36987293],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_0850c4ee23d64c5a8663a0a5d17aa230 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9511321eef024e7088f681119a733bf9.setIcon(icon_0850c4ee23d64c5a8663a0a5d17aa230);
+            
+    
+            var popup_a3b431d86e2248a59f5dd9c1c07e6eac = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f58a9d6c6a92440aab9db17dab75a466 = $(`<div id="html_f58a9d6c6a92440aab9db17dab75a466" style="width: 100.0%; height: 100.0%;">Pg Art Building</div>`)[0];
+                popup_a3b431d86e2248a59f5dd9c1c07e6eac.setContent(html_f58a9d6c6a92440aab9db17dab75a466);
+            
+
+            marker_9511321eef024e7088f681119a733bf9.bindPopup(popup_a3b431d86e2248a59f5dd9c1c07e6eac)
+            ;
+
+            
+        
+    
+        var marker_bd232899ad994d01a99e2e5a37fec334 = L.marker(
+            [22.50114063, 88.37033813],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_b2e26d3e0d744beaa551d6ec55f7218f = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bd232899ad994d01a99e2e5a37fec334.setIcon(icon_b2e26d3e0d744beaa551d6ec55f7218f);
+            
+    
+            var popup_cd052c8bdd5a49359177fca5d8915a65 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_25175e1b5abb4d92940eee6a41342884 = $(`<div id="html_25175e1b5abb4d92940eee6a41342884" style="width: 100.0%; height: 100.0%;">Pharmaceutical Engineering Department</div>`)[0];
+                popup_cd052c8bdd5a49359177fca5d8915a65.setContent(html_25175e1b5abb4d92940eee6a41342884);
+            
+
+            marker_bd232899ad994d01a99e2e5a37fec334.bindPopup(popup_cd052c8bdd5a49359177fca5d8915a65)
+            ;
+
+            
+        
+    
+        var marker_94872fc2bd3c4761af2246ac6b78d23c = L.marker(
+            [22.50072013, 88.36983956],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_18cade82828144a59c97f190bd9b0b25 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_94872fc2bd3c4761af2246ac6b78d23c.setIcon(icon_18cade82828144a59c97f190bd9b0b25);
+            
+    
+            var popup_abe9aeace8f448689e89538fc1ee1eda = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0442dafee5cc4a42852343fa1e88f98b = $(`<div id="html_0442dafee5cc4a42852343fa1e88f98b" style="width: 100.0%; height: 100.0%;">Subarna Jayanti Bhavan</div>`)[0];
+                popup_abe9aeace8f448689e89538fc1ee1eda.setContent(html_0442dafee5cc4a42852343fa1e88f98b);
+            
+
+            marker_94872fc2bd3c4761af2246ac6b78d23c.bindPopup(popup_abe9aeace8f448689e89538fc1ee1eda)
+            ;
+
+            
+        
+    
+        var marker_ff4faf1698004687b4cfdac99d4b6f42 = L.marker(
+            [22.50017321, 88.36964666],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_77900b9c06644d7e80b73b483345de3f = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ff4faf1698004687b4cfdac99d4b6f42.setIcon(icon_77900b9c06644d7e80b73b483345de3f);
+            
+    
+            var popup_5bc9e496e4124d83a1c12dd346e6aba6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a3b22aef6aa043b4b298958e32fda534 = $(`<div id="html_a3b22aef6aa043b4b298958e32fda534" style="width: 100.0%; height: 100.0%;">Ug Arts Buuilding</div>`)[0];
+                popup_5bc9e496e4124d83a1c12dd346e6aba6.setContent(html_a3b22aef6aa043b4b298958e32fda534);
+            
+
+            marker_ff4faf1698004687b4cfdac99d4b6f42.bindPopup(popup_5bc9e496e4124d83a1c12dd346e6aba6)
+            ;
+
+            
+        
+    
+        var marker_e4360632a3bf43259663e33378eaaee7 = L.marker(
+            [22.50000487, 88.36977144],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_c5b3780d83af496988c0266515dd6626 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e4360632a3bf43259663e33378eaaee7.setIcon(icon_c5b3780d83af496988c0266515dd6626);
+            
+    
+            var popup_f647048843454899ac5ff43ad3352c37 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0713e6552dab4179837f4c874174e56c = $(`<div id="html_0713e6552dab4179837f4c874174e56c" style="width: 100.0%; height: 100.0%;">Department Of English</div>`)[0];
+                popup_f647048843454899ac5ff43ad3352c37.setContent(html_0713e6552dab4179837f4c874174e56c);
+            
+
+            marker_e4360632a3bf43259663e33378eaaee7.bindPopup(popup_f647048843454899ac5ff43ad3352c37)
+            ;
+
+            
+        
+    
+        var marker_cc02133ed4424134affe2654095f9155 = L.marker(
+            [22.50135091, 88.37083327],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_7cca77fac3364ea2bdb8466d5380ceee = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cc02133ed4424134affe2654095f9155.setIcon(icon_7cca77fac3364ea2bdb8466d5380ceee);
+            
+    
+            var popup_068ce4cacf044c93b894b8346bf580c6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_393db3d617d745768207f834ab59484a = $(`<div id="html_393db3d617d745768207f834ab59484a" style="width: 100.0%; height: 100.0%;">Bioequivalance Study Centre</div>`)[0];
+                popup_068ce4cacf044c93b894b8346bf580c6.setContent(html_393db3d617d745768207f834ab59484a);
+            
+
+            marker_cc02133ed4424134affe2654095f9155.bindPopup(popup_068ce4cacf044c93b894b8346bf580c6)
+            ;
+
+            
+        
+    
+        var marker_b2cdfa896c4845f2aaa9a226793b23cc = L.marker(
+            [22.50142981, 88.37107762],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_486bc51c8cb94970945ba9d6d40a1743 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b2cdfa896c4845f2aaa9a226793b23cc.setIcon(icon_486bc51c8cb94970945ba9d6d40a1743);
+            
+    
+            var popup_df196e2cf4cd46d793a6e071ba19201d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6ce49945ee114783aa1ba21c415b5e3c = $(`<div id="html_6ce49945ee114783aa1ba21c415b5e3c" style="width: 100.0%; height: 100.0%;">Darshan Bhawan</div>`)[0];
+                popup_df196e2cf4cd46d793a6e071ba19201d.setContent(html_6ce49945ee114783aa1ba21c415b5e3c);
+            
+
+            marker_b2cdfa896c4845f2aaa9a226793b23cc.bindPopup(popup_df196e2cf4cd46d793a6e071ba19201d)
+            ;
+
+            
+        
+    
+        var marker_abb8bb1c17e24777afb2153b785a31b1 = L.marker(
+            [22.50146488, 88.37165411],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_2c451bbae27a44a9864220ed95af8ab6 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_abb8bb1c17e24777afb2153b785a31b1.setIcon(icon_2c451bbae27a44a9864220ed95af8ab6);
+            
+    
+            var popup_c8589d1b297342919692add15f045e60 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_38add7cf0d6c4fc1ae39a39b95ff3a75 = $(`<div id="html_38add7cf0d6c4fc1ae39a39b95ff3a75" style="width: 100.0%; height: 100.0%;">Rabindra Bhawan</div>`)[0];
+                popup_c8589d1b297342919692add15f045e60.setContent(html_38add7cf0d6c4fc1ae39a39b95ff3a75);
+            
+
+            marker_abb8bb1c17e24777afb2153b785a31b1.bindPopup(popup_c8589d1b297342919692add15f045e60)
+            ;
+
+            
+        
+    
+        var marker_aafb903986544a8aa71d2a5b19e020c2 = L.marker(
+            [22.50189885, 88.37112744],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_3a4d8197b98a412887c4d502ebffe567 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_aafb903986544a8aa71d2a5b19e020c2.setIcon(icon_3a4d8197b98a412887c4d502ebffe567);
+            
+    
+            var popup_146bc93443be410894c8aabdd4b903c1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bb84ceec434243f887266925c6cb505c = $(`<div id="html_bb84ceec434243f887266925c6cb505c" style="width: 100.0%; height: 100.0%;">OAT</div>`)[0];
+                popup_146bc93443be410894c8aabdd4b903c1.setContent(html_bb84ceec434243f887266925c6cb505c);
+            
+
+            marker_aafb903986544a8aa71d2a5b19e020c2.bindPopup(popup_146bc93443be410894c8aabdd4b903c1)
+            ;
+
+            
+        
+    
+        var marker_03a2d844dc7a437ba17fc12c886840cf = L.marker(
+            [22.49678953, 88.3709965],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_55531949e035453b9c74d8ee2b2c067f = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_03a2d844dc7a437ba17fc12c886840cf.setIcon(icon_55531949e035453b9c74d8ee2b2c067f);
+            
+    
+            var popup_71b0cea4b468457499d72a4b30eac5cc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b230cd99b8fd43abad27464225d17b65 = $(`<div id="html_b230cd99b8fd43abad27464225d17b65" style="width: 100.0%; height: 100.0%;">Prayukti Bhawan</div>`)[0];
+                popup_71b0cea4b468457499d72a4b30eac5cc.setContent(html_b230cd99b8fd43abad27464225d17b65);
+            
+
+            marker_03a2d844dc7a437ba17fc12c886840cf.bindPopup(popup_71b0cea4b468457499d72a4b30eac5cc)
+            ;
+
+            
+        
+    
+        var marker_f74660e19e92487bb46a4de8fdb9df37 = L.marker(
+            [22.4967544, 88.37077163],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_078e4209c87f42a3896f3e0108a4abcf = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f74660e19e92487bb46a4de8fdb9df37.setIcon(icon_078e4209c87f42a3896f3e0108a4abcf);
+            
+    
+            var popup_f1d513c51b4d48499c5d371da9806f73 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_122823cbac92493385abafb56435e350 = $(`<div id="html_122823cbac92493385abafb56435e350" style="width: 100.0%; height: 100.0%;">Ju Anex Civil Building</div>`)[0];
+                popup_f1d513c51b4d48499c5d371da9806f73.setContent(html_122823cbac92493385abafb56435e350);
+            
+
+            marker_f74660e19e92487bb46a4de8fdb9df37.bindPopup(popup_f1d513c51b4d48499c5d371da9806f73)
+            ;
+
+            
+        
+    
+        var marker_54321bd04a724fef8bbe8baf9a76f769 = L.marker(
+            [22.49644939, 88.37088536],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_88c5036ddc004a17a0074cf9b3d5beef = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_54321bd04a724fef8bbe8baf9a76f769.setIcon(icon_88c5036ddc004a17a0074cf9b3d5beef);
+            
+    
+            var popup_fcdba48e3b5340f78885645c53a0f298 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6bbfef5a5794456c8fae925584f9e5da = $(`<div id="html_6bbfef5a5794456c8fae925584f9e5da" style="width: 100.0%; height: 100.0%;">Ju Informarion Centre</div>`)[0];
+                popup_fcdba48e3b5340f78885645c53a0f298.setContent(html_6bbfef5a5794456c8fae925584f9e5da);
+            
+
+            marker_54321bd04a724fef8bbe8baf9a76f769.bindPopup(popup_fcdba48e3b5340f78885645c53a0f298)
+            ;
+
+            
+        
+    
+        var marker_4d17eaa769e9425d99397b9e0cd23875 = L.marker(
+            [22.4961072, 88.37104776],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_594f465c4fc64dc9a13d6aea3bd597e1 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4d17eaa769e9425d99397b9e0cd23875.setIcon(icon_594f465c4fc64dc9a13d6aea3bd597e1);
+            
+    
+            var popup_c553d6b0972a4d9a9b1c8b4869c9b7de = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5edb3b9a5c1049b195d49c5a378c582c = $(`<div id="html_5edb3b9a5c1049b195d49c5a378c582c" style="width: 100.0%; height: 100.0%;">School Of Energy Studies</div>`)[0];
+                popup_c553d6b0972a4d9a9b1c8b4869c9b7de.setContent(html_5edb3b9a5c1049b195d49c5a378c582c);
+            
+
+            marker_4d17eaa769e9425d99397b9e0cd23875.bindPopup(popup_c553d6b0972a4d9a9b1c8b4869c9b7de)
+            ;
+
+            
+        
+    
+        var marker_4b927a062a464c259318f2b7c926cdfa = L.marker(
+            [22.49669459, 88.37207965],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_1a886f41ade14328a70f7b2436c927ba = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4b927a062a464c259318f2b7c926cdfa.setIcon(icon_1a886f41ade14328a70f7b2436c927ba);
+            
+    
+            var popup_1b45f89c38964220bbc0a22e908c6233 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3c4567e3272b4189b92c71fb949a1637 = $(`<div id="html_3c4567e3272b4189b92c71fb949a1637" style="width: 100.0%; height: 100.0%;">Ju Staff Canteen</div>`)[0];
+                popup_1b45f89c38964220bbc0a22e908c6233.setContent(html_3c4567e3272b4189b92c71fb949a1637);
+            
+
+            marker_4b927a062a464c259318f2b7c926cdfa.bindPopup(popup_1b45f89c38964220bbc0a22e908c6233)
+            ;
+
+            
+        
+    
+        var marker_4a4905a6ce0147b28ae355f36a0a61d0 = L.marker(
+            [22.49670752, 88.37099803],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0f76545c76454935a144c99b5dedf73c);
+        
+    
+
+                var icon_f39d5067cd5d48a7b82b6db5d31924ed = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4a4905a6ce0147b28ae355f36a0a61d0.setIcon(icon_f39d5067cd5d48a7b82b6db5d31924ed);
+            
+    
+            var popup_d993f8afbf094fcb842eef441a4eddb2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0a254d2249f24e22803dc8dce2d3faf4 = $(`<div id="html_0a254d2249f24e22803dc8dce2d3faf4" style="width: 100.0%; height: 100.0%;">Architecture</div>`)[0];
+                popup_d993f8afbf094fcb842eef441a4eddb2.setContent(html_0a254d2249f24e22803dc8dce2d3faf4);
+            
+
+            marker_4a4905a6ce0147b28ae355f36a0a61d0.bindPopup(popup_d993f8afbf094fcb842eef441a4eddb2)
+            ;
+
+            
+        
+</script>
